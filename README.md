@@ -7,6 +7,7 @@ Integración con API: Se realizan peticiones a la API de 9Now para obtener datos
 Actualización y ordenamiento: Se comparan y actualizan los datos extraídos de la página con los datos de la API mediante un proceso recursivo. Además, los resultados se ordenan según un criterio definido.
 Monitoreo de recursos: Al final del proceso se muestran estadísticas de uso de CPU y RAM.
 Tecnologías utilizadas
+
 Python 3.10+
 Playwright: Para la automatización del navegador.
 aiohttp: Para realizar peticiones asíncronas a la API.
