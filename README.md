@@ -20,3 +20,16 @@ Pandas: Para el manejo de archivos CSV.
 Psutil: Para monitorear el uso de CPU y RAM.
 
 Asyncio: Para la programación asíncrona.
+
+Explicaciones de los datos: 
+
+URLS.cvs carga de url y url_type donde se carga cualquier url de la pagina con su respectivo type ("category","Keyword","Home",etc)
+
+Extracted_9now.json = json donde se carga toda la data con su tiempo de ejecucion , uso de ram , cpu y fecha de registro ademas carga el type explicado anteriormente.
+
+9now_ua.py = codigo diseño para hacer scraping completo a 9now.
+
+tabs.json = almacena todo los datos de la api donde es consumido por 9now_ua.py
+
+Grabacion de pantalla donde se muestra el scraping respectivo para obtener la screenshot y la carga completa de las api.
+https://drive.google.com/file/d/1EDdoSP7CqzhEWe-b28OhsLlRcE545Tu4/view?usp=sharing
