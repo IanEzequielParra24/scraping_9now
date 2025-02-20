@@ -6,11 +6,17 @@ Extracción de datos HTML: Se utiliza Playwright para recorrer las páginas y ex
 Integración con API: Se realizan peticiones a la API de 9Now para obtener datos adicionales (como la descripción y destinationUri) y se combinan con la información extraída.
 Actualización y ordenamiento: Se comparan y actualizan los datos extraídos de la página con los datos de la API mediante un proceso recursivo. Además, los resultados se ordenan según un criterio definido.
 Monitoreo de recursos: Al final del proceso se muestran estadísticas de uso de CPU y RAM.
-Tecnologías utilizadas
+
+Tecnologías utilizadas:
 
 Python 3.10+
+
 Playwright: Para la automatización del navegador.
+
 aiohttp: Para realizar peticiones asíncronas a la API.
+
 Pandas: Para el manejo de archivos CSV.
+
 Psutil: Para monitorear el uso de CPU y RAM.
+
 Asyncio: Para la programación asíncrona.
